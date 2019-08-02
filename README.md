@@ -47,3 +47,8 @@ gxss can also be used as a request bin. Every request matching `//yourserver.com
 ```html
 <img src=//yourserver.com/kTARGET1>
 ```
+
+### Alternatives
+
+* [xsshunter](https://github.com/mandatoryprogrammer/xsshunter), python, most features, alerts require Mailgun account and wildcard certificate
+* [xless](https://github.com/mazen160/xless), node.js, serverless on [zeit.co](https://zeit.co), alerts over Slack
