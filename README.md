@@ -1,10 +1,10 @@
 ## Blind XSS as a service
 
-**gxss** is a simple tool which serves a javascript payload and allows to identify blind XSS vulnerabilities. It works as [xsshunter](https://github.com/mandatoryprogrammer/xsshunter), but it is a bit simpler to use and configure. Alerts can be sent via Slack or E-Mail. E-Mails will also have an screenshot of the DOM attached.
+**gxss** is a simple tool which serves a javascript payload and allows to identify blind XSS vulnerabilities. This is similar to [xsshunter](https://github.com/mandatoryprogrammer/xsshunter), but a bit simpler to configure and run. Alerts can be sent via Slack or email. Emails will also have a screenshot of the DOM attached (which is not possible over the Slack webhook API).
 
 ![gxss](misc/mail.png)
 
-*Note: The javascript payload was taken from [xsshunter](https://github.com/mandatoryprogrammer/xsshunter) and slightly modified*
+*Note: The javascript payload was taken (and slightly modified) from [xsshunter](https://github.com/mandatoryprogrammer/xsshunter)*
 
 ### Installation
 
